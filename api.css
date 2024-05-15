@@ -1,0 +1,60 @@
+img{
+    margin-top: 30px;
+    width: 300px;
+    border: 2px solid black;
+    background-color: rgb(226, 226, 226);
+}
+#rules{
+ display: none;
+}
+#ruler{
+display: block;
+cursor: pointer;
+}
+.desc{
+  position: absolute;
+  top: 60px;
+  left: 320px;
+}
+.guessing input{
+    display: block;
+    margin-bottom: 12px;
+}
+.guessing{
+    margin-top: 12px;
+}
+.results{
+    position: absolute;
+    top: 220px;
+    left: 100px;
+}
+.redText{
+    color: red;
+}
+.greentext{
+    color: green;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.fetchers{
+    margin-top: 20px;
+}
+.fetchers button{
+    background-color: greenyellow;
+    border: 2px outset;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(234, 45, 45);
+}
+#ruler{
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    margin-left: 0px;
+}
+#paragraph{
+   font-size: 2rem;
+}
